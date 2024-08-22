@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 150vh ;
+}
+
+input{
+    background-color: #ff5656;
+    color: white;
+    border: 1px solid rgb(217, 217, 217);
+    font-size: 10px;
+}
+
+.submit-button{
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cardcontainer{
+    border: 1px solid gray;
+    box-shadow: 0 0 5px 1px;
+    border-radius: 20px;
+    width: 25rem;
+    height: 12rem;
+    padding: 20px;
+}
+.cardcontainer .row{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cardcontainer img{
+    width: 100px;
+    height: 140px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.cardcontainer p {
+    padding: 0;
+    margin: 0;
+}
+
+.gtyOfCards{
+    background-color: #ff5656;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
